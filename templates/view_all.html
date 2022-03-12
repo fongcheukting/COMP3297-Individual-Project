@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>View all orders</title>
+    </head>
+    <body>
+        <h1>Showing all orders</h1>
+        <ul>{# TODO: use a loop #}
+            <li>[{{ orders.0.status }}] {{ orders.0.time }}</li>
+            <li>[{{ orders.1.status }}] {{ orders.1.time }}</li>
+            <li>[{{ orders.2.status }}] {{ orders.2.time }}</li>
+            <li>[{{ orders.3.status }}] {{ orders.3.time }}</li>
+        </ul>
+    </body>
+</html>
