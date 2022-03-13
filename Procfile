@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath demo demo.wsgi
+web: gunicorn demo.wsgi
