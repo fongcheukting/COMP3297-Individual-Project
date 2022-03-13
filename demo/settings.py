@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-o8y)4%5hrlf@$1m2z521n*!^bg(t%-(z1)ts+(%x1tk02aw*+_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://safe-cove-32506.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -124,5 +124,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Set Allowed Hosts
-ALLOWED_HOSTS = ['https://safe-cove-32506.herokuapp.com', 'localhost', '127.0.0.1']
+
